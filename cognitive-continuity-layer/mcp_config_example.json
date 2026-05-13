@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "cognitive_continuity_mcp": {
+      "command": "node",
+      "args": [
+        "d:/MCP/cognitive-continuity-layer/mcp-server-ts/dist/index.js"
+      ],
+      "env": {
+        "MEMORY_ENGINE_URL": "http://localhost:8001"
+      }
+    }
+  }
+}
