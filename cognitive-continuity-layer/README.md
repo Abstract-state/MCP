@@ -24,6 +24,10 @@ graph LR
 
 ## 🛠️ Setup
 
+> [!TIP]
+> For a detailed walkthrough of steps needed after a fresh clone, see the [Post-Clone Setup Guide](docs/setup-guide.md).
+
+
 ### Prerequisites
 - Node.js (v18+)
 - Python (3.12+)
@@ -54,7 +58,9 @@ Run the unified validation script to verify the entire stack:
 ```
 
 ## 📄 Documentation
+- [Post-Clone Setup Guide](docs/setup-guide.md)
 - [Architecture & Detailed Flow](docs/architecture.md)
 - [API Contract](docs/api-contract.md)
 - [Test Plan](docs/test-plan.md)
 - [Task Tracker](docs/task_tracker.md)
+
