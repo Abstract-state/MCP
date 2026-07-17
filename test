@@ -1,0 +1,57 @@
+With(
+    {
+        selTradingBooks: TradingBook_Box.SelectedItems,
+        selTraders: Trader_Box.SelectedItems,
+        selAlertDates: AlertDate_Box.SelectedItems,
+        selSecType: Trader_Box_2.SelectedItems
+    },
+    AddColumns(
+        Sort(
+            Filter(
+                'LeaningAlerts' As AlertRow,
+
+                (
+                    CountRows(selTradingBooks) = 0 ||
+                    !IsEmpty(
+                        Filter(
+                            'propdetailsfulls',
+                            FinalCaseID = Value(AlertRow.FinalCaseID) &&
+                            TradingBook in selTradingBooks.Value
+                        )
+                    )
+                )
+                &&
+                (
+                    CountRows(selTraders) = 0 ||
+                    !IsEmpty(
+                        Filter(
+                            'propdetailsfulls',
+                            FinalCaseID = Value(AlertRow.FinalCaseID) &&
+                            Trader in selTraders.Value
+                        )
+                    )
+                )
+                &&
+                (
+                    CountRows(selAlertDates) = 0 ||
+                    DateValue(AlertRow.CreatedDT) in selAlertDates.Value
+                )
+                &&
+                (
+                    CountRows(selSecType) = 0 ||
+                    AlertRow.tsds_securitytype in selSecType.Value
+                )
+            ),
+            AlertID
+        ),
+        CreatedDTDisplay,
+        Text(
+            DateAdd(
+                CreatedDT,
+                TimeZoneOffset(CreatedDT),
+                TimeUnit.Minutes
+            ),
+            DateTimeFormat.ShortDateTime
+        )
+    )
+)
