@@ -51,7 +51,7 @@ With(
                 TimeZoneOffset(CreatedDT),
                 TimeUnit.Minutes
             ),
-            DateTimeFormat.ShortDateTime
+            "[$-en-US]m/d/yyyy h:mm AM/PM"
         )
     )
 )
