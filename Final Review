@@ -1,0 +1,56 @@
+List down deliverables over the year:
+
+	1. Trade Surveillance Control Dashboard - MAR
+	2. Trade Surveillance Control Dashboard - CCO
+	3. RegW Dashboard Migration & Enhancements
+	4. Multiple BI Dashboard (Jira, Source Data)
+	5. Mail Alert Notification
+	6. OTEL Reporting
+	7. Leaning Alerts: Power Apps
+	8. CATS Report Development & Integration
+	9. CMA: 410 SEV-1 Issue Resolution
+
+Planned Actions:
+Scheduled deliverables planned and scheduled:
+
+1. CMA Migration
+2. CMA New Role & Access Control Features
+3. CMA New Data Model Planning & Design
+4. WEBERS Report Migration - 10 Reports
+5. Xceptor Data Modelling & Load
+6. Trade Surveillance Alert Monitoring Tool : New Application Integration
+
+Key Highlights:
+	1. Delivered Surveillance Control Dashboard - critical for closing MAR(Market Abuse Risk) Corrective Actions - Provide detailed insight and information in surveillance gaps to Business Control Team enabling them to initiate remediation actions to ensure trade surveillance controls functions as per the organization & Regulatory Requirement.
+	2. Migrated and Developed New Features in Reg W Dashboard for Tier 1 Regulatory Oversight.
+	3. Automated the data tracking and availability control for TSDS Surveillance Reports to keep business users and stakeholders updated with the real time data availability in the report.
+	4. Developed Inhouse Low Code Solution for Alert Monitoring and Management in Power Apps for Leaning Alert, utilizing the code apps and components features for rapid development.
+	5. Developed Open telemetry Python script to capture real time GitHub copilot usage metrics and present the data insights in the BI Report for technology leaders.
+	6. Guided and Helped the CATS Team in development of data insight report and deployment of the reports.
+
+	
+	
+
+TO BE DONE In the year:
+
+1. Initiated Migration of CMA Migration, Sole developer leading the AVIT Vulnerabilities SEV - 1 Resolution for CMA Application 410+. Parallelly handled the Kafka redevelopment and integration process to bring the application live - crashed across all environment as the application certificate expired and ACL biding failed for Kafka and other in CMA.
+2. Leading Development of New Access Control and UI Enhancement for CMA to incorporate changes which will enable business user to start using the application.
+3. Planning and Designing the version 2.0 data model and control dictionary of CMA covering CP2 & Exception checks to strengthen the application scope and build a central data quality control check source of truth dictionary.
+4. Planned work on development of inhouse of Data Intelligence Solution providing data insight for the Xceptor Team 
+- Loading 42+ Data tables and designing the data model and insight metric engine.
+Then development of BI Dashboard and Application Solution to support the business requirement.
+5. Planned work in Migration of WEBERS Report from ACMTZ to TSDS (40+ Reports, but my contribution to 8 report Migration)
+6. Integration of ALERTS Data from 1TIS & ACTMZ to TSDS Alert Management Solution Development as LWC Solution in Power Platform.
+
+Personal Highlights:
+	1. Round the clock availability to ensure consistent and accurate delivery for business requitement.
+	2. AI Adoption and Rapid development to boost productivity and increase buinsess impact of deliverables using tool like github copilot intergrated and enabled by mcp invlving Power BI ( in-house self developed) power BI mcp to capture data and model details from BI reports in github copilot chat invscode and further with sql server mcp to perform rapid develoment and model and query and dax script end to end testing and validation.
+	3. Exceed Organization Requirement in AI Adoption and productivity increase by staying top in the line of copilot usage and this leading to rapid assited development enabling higher threshold story point delivery the base is 10 always aimed at delivering more than 12 story points every sprint, Starting now with enablement of Claude codesetting the base for myself at 13 story points and aiming to deliver 90+ story points task over the upcooming 6 speints for the year.
+	4. Increased deployment counts and reduced turnaround time for deliverables post requirement finalization and doubled delivery deployment for BI Reporting and Lwc Solutions on Power Platform. (Had shipped new enahacement and fixes in BI Report at weekly prod deplyment pace) and PowerApps Solution End to end development in 1 sprint.
+	5. Top in time adhering to organization policy around in office expetation in number of days (rto) and in office hours of 8+.
+	6. Delivered comprehensive solution to imporvse the surveillance control framework and enable control team with software solutions to 
+
+
+
+
+
